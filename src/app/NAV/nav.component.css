@@ -1,0 +1,52 @@
+p {
+  font-family: Lato;
+}
+a{
+  background: #fff;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+#ctg{
+  padding: 5px;
+  cursor: default;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 150px;
+  float: left;
+}
+ul li {
+ position: relative;
+}
+li ul {
+  position: absolute;
+  left: 149px;
+  top: 0;
+  display: none;
+}
+ul li {
+  display: block;
+  color: black;
+  background: #fff;
+  padding: 0px;
+  border: 1px solid #ccc;
+}
+li:hover ul { display: block; }
+
+ul li a:hover{
+  font-weight: bold;
+  background: #ccc; 
+}
+ul li:hover{
+  font-weight: bold;
+  background: #ccc; 
+}
+#rbd{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: -83px;
+}
